@@ -1,0 +1,160 @@
+
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+
+  <servlet>
+    <servlet-name>fs1</servlet-name>
+    <servlet-class>kz.iitu.Zhanibek.FirstSection.FirstServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>fs1</servlet-name>
+    <url-pattern>/FirstServlet1</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>fs2</servlet-name>
+    <servlet-class>kz.iitu.Zhanibek.FirstSection.SecondServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>fs2</servlet-name>
+    <url-pattern>/FirstServlet2</url-pattern>
+  </servlet-mapping>
+
+
+
+
+  <servlet>
+    <description></description>
+    <display-name>LoginServlet</display-name>
+    <servlet-name>LoginServlet</servlet-name>
+    <servlet-class>kz.iitu.Zhanibek.SecondSection.LoginServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>LoginServlet</servlet-name>
+    <url-pattern>/LoginServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>ProfileServlet</display-name>
+    <servlet-name>ProfileServlet</servlet-name>
+    <servlet-class>kz.iitu.Zhanibek.SecondSection.ProfileServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ProfileServlet</servlet-name>
+    <url-pattern>/ProfileServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>LogoutServlet</display-name>
+    <servlet-name>LogoutServlet</servlet-name>
+    <servlet-class>kz.iitu.Zhanibek.SecondSection.LogoutServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>LogoutServlet</servlet-name>
+    <url-pattern>/LogoutServlet</url-pattern>
+  </servlet-mapping>
+
+
+
+
+  <servlet>
+    <servlet-name>ts1</servlet-name>
+    <servlet-class>kz.iitu.Zhanibek.ThirdSection.FirstServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>ts1</servlet-name>
+    <url-pattern>/ThirdServlet1</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>ts2</servlet-name>
+    <servlet-class>kz.iitu.Zhanibek.ThirdSection.SecondServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>ts2</servlet-name>
+    <url-pattern>/ThirdServlet2</url-pattern>
+  </servlet-mapping>
+
+
+
+  <servlet>
+    <servlet-name>fos1</servlet-name>
+    <servlet-class>kz.iitu.Zhanibek.FourthSection.FirstServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>fos1</servlet-name>
+    <url-pattern>/FourthServlet1</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>fos2</servlet-name>
+    <servlet-class>kz.iitu.Zhanibek.FourthSection.SecondServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>fos2</servlet-name>
+    <url-pattern>/FourthServlet2</url-pattern>
+  </servlet-mapping>
+
+
+  <servlet>
+    <servlet-name>fis1</servlet-name>
+    <servlet-class>kz.iitu.Zhanibek.FifthSection.FirstServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>fis1</servlet-name>
+    <url-pattern>/FifthServlet1</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>fis2</servlet-name>
+    <servlet-class>kz.iitu.Zhanibek.FifthSection.SecondServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>fis2</servlet-name>
+    <url-pattern>/FifthServlet2</url-pattern>
+  </servlet-mapping>
+
+
+
+  <servlet>
+    <description></description>
+    <display-name>SixthLoginServlet</display-name>
+    <servlet-name>SixthLoginServlet</servlet-name>
+    <servlet-class>kz.iitu.Zhanibek.sixthSection.LoginServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SixthLoginServlet</servlet-name>
+    <url-pattern>/SixthLoginServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>SixthProfileServlet</display-name>
+    <servlet-name>SixthProfileServlet</servlet-name>
+    <servlet-class>kz.iitu.Zhanibek.sixthSection.ProfileServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SixthProfileServlet</servlet-name>
+    <url-pattern>/SixthProfileServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>SixthLogoutServlet</display-name>
+    <servlet-name>SixthLogoutServlet</servlet-name>
+    <servlet-class>kz.iitu.Zhanibek.sixthSection.LogoutServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SixthLogoutServlet</servlet-name>
+    <url-pattern>/SixthLogoutServlet</url-pattern>
+  </servlet-mapping>
+
+
+</web-app>
